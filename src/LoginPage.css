@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Paytone One", sans-serif;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #E7E5FF;
+  display: flex;
+}
+body #container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body #container .logo {
+  width: 125px;
+  position: fixed;
+  top: 47px;
+}
+body #container #userName {
+  width: 222px;
+  height: 32px;
+  padding: 3px 10px;
+  border: 3px solid #6F63E1;
+  border-radius: 10px;
+  color: #6F63E1;
+  background-color: transparent;
+  font-size: 18px;
+}
+body #container #startButton {
+  width: 178px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 10vh;
+  background-color: #6F63E1;
+  border: 0px solid;
+  border-radius: 8px;
+}/*# sourceMappingURL=LoginPage.css.map */

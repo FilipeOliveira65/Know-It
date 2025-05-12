@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Paytone One", sans-serif;
+}
+
+$primary-color: #6F63E1;
+
+button {
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #E7E5FF;
+
+    display: flex;
+    // justify-content: center;
+
+    #container {
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .logo{
+            width: 125px;
+
+            position: fixed;
+            top: 47px;
+            
+        }
+
+        #userName {
+            width: 222px;
+            height: 32px;
+
+            padding: 3px 10px;
+
+            border: 3px solid $primary-color;
+            border-radius: 10px;
+
+            color: $primary-color;
+
+            background-color: transparent;
+
+            font-size: 18px;
+        }
+
+        #startButton {
+            width: 178px;
+            height: 33px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            position: fixed;
+            bottom: 10vh;
+
+            background-color: $primary-color;
+
+            border: 0px solid;
+            border-radius: 8px;
+        }
+    }
+}
