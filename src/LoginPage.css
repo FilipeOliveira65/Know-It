@@ -13,7 +13,7 @@ body {
   background-color: #E7E5FF;
   display: flex;
 }
-body #container {
+body .container {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -21,12 +21,12 @@ body #container {
   justify-content: center;
   flex-direction: column;
 }
-body #container .logo {
+body .container .logo {
   width: 125px;
   position: fixed;
   top: 47px;
 }
-body #container #userName {
+body .container #userName {
   width: 222px;
   height: 32px;
   padding: 3px 10px;
@@ -36,7 +36,7 @@ body #container #userName {
   background-color: transparent;
   font-size: 18px;
 }
-body #container #startButton {
+body .container .startButton {
   width: 178px;
   height: 33px;
   display: flex;

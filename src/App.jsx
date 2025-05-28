@@ -3,12 +3,15 @@ import './App.css'
 import Logo from './components/logo'
 import StartButton from './components/startButton';
 import LoginPage from './LoginPage';
+import StartPage from './StartPage';
 
 function HomePage() {
   return (
-    <div id='container'>
+    <div className='container'>
       <Logo/>
-      <StartButton/>
+      <StartButton to='/login'/>
+      
+      {/* <StartPage/> */}
     </div>
   )
 }
@@ -20,10 +23,9 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage/>}/>
           <Route path='/login' element={<LoginPage/>}/>
+          <Route path='/teste' element={<StartPage/>}/>
         </Routes>
       </Router>
-    
-      
     </>
   )
 }

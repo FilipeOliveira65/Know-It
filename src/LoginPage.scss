@@ -19,7 +19,7 @@ body {
     display: flex;
     // justify-content: center;
 
-    #container {
+    .container {
         width: 100vw;
         height: 100vh;
 
@@ -52,7 +52,7 @@ body {
             font-size: 18px;
         }
 
-        #startButton {
+        .startButton {
             width: 178px;
             height: 33px;
 

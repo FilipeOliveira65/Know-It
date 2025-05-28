@@ -1,15 +1,16 @@
 import React from 'react';
 import './LoginPage.css'
 import Logo from './components/logo';
+import StartButton from './components/startButton';
 
 function LoginPage() {
     return (
-        <div id="container">
+        <div className="container">
             <Logo/>
 
-            <input type="text" id='userName'/>
+            {/* <input type="text" id='userName'/> */}
 
-            <button onClick={() => navigate('/login')} id='startButton'>Iniciar</button>
+            <StartButton to='/teste'/>
         </div>
     )
 }
